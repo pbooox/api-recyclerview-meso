@@ -50,6 +50,9 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
 
+//    picasso
+    implementation("com.squareup.picasso:picasso:2.8")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
